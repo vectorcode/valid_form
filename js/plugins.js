@@ -38,7 +38,7 @@ var formValModul = (function($) {
                                  
             break;              
             
-            case 'Email'://проверка на Email
+            case 'email'://проверка на Email
                 if(node.val() != '') {
                 var pattern = /^([a-z0-9_\.-])+@[a-z0-9-]+\.([a-z]{2,4}\.)?[a-z]{2,4}$/i;
                 if(pattern.test(node.val())){
