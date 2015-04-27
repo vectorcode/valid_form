@@ -3,7 +3,7 @@
 Для тултипов используется плагин http://qtip2.com/
 Необходимые файлы плагина тултипов - jquery.qtip.min.css, jquery.qtip.min.js, imagesloaded.pkg.min.js
 
-1.Инмциализация плагина 
+1.Инициализация плагина 
 formValModul.init('#file-md-form');//Передаём id формы
 //<form action="add_work.php" id="file-md-form">
 // add_work.php - на это адрес будет осуществлятся Ajax запрос с данными формы
