@@ -21,6 +21,13 @@ var formValModul = (function($) {
                  return false;
 
             break;
+            case 'tel': //проверка на телефон
+                  
+              var re = /^\d[\d\(\)\ -]{4,14}\d$/,
+                valid = re.test(node.val());
+              return valid;
+
+            break;
 
             case 'numb': //проверка на число
                 var value = node.val();
